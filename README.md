@@ -31,16 +31,55 @@ The system is designed as a dual-stream perception pipeline. One stream processe
 
 ## Demonstrations
 
-GitHub README files do not render Google Drive iframes, so the video demonstrations are linked directly.
+The six project demos are included as MP4 assets in this repository. If a browser does not show the embedded player inside GitHub, use the local MP4 or Google Drive mirror link under each demo.
 
-| Demo | What It Shows | Link |
-| --- | --- | --- |
-| Head Direction Detection | In-cabin driver monitoring using face detection and head-direction estimation. | [Open demo](https://drive.google.com/file/d/1A2q3yyOWNahFMdCXNqwSgLiplSm0I8R8/view?usp=sharing) |
-| Object Detection and Tracking | Outside-scene object detection with temporal motion tracking. | [Open demo](https://drive.google.com/file/d/10NZdcjuLJwZpQkWyuejilv89bkpzwO8w/view?usp=sharing) |
-| Wake Up Alert | Detects drowsiness or inattention and triggers an alert for the driver. | [Open demo](https://drive.google.com/file/d/1OBGQBOWgTtPI4M-Lg9MHks1ceZ5gpF04/view?usp=sharing) |
-| Traffic Light Alert | Identifies traffic lights ahead and reports relevant driving context. | [Open demo](https://drive.google.com/file/d/1SKdeQcPozlHjiXv1Xai9ZFWGEwpoZ0t2/view?usp=sharing) |
-| Pedestrian Alert | Detects pedestrians near the vehicle to support safer navigation. | [Open demo](https://drive.google.com/file/d/175rLPKxnW_U6EwKj4D845NgkOWCcjafd/view?usp=sharing) |
-| Look Left Alert | Warns the driver about a hazard approaching from the left side. | [Open demo](https://drive.google.com/file/d/1Xo7zvCDjAGA3eRQL3tgdRpmuObn_qE4a/view?usp=sharing) |
+### Head Direction Detection
+
+In-cabin driver monitoring using face detection and head-direction estimation.
+
+<video src="assets/videos/head-direction-detection.mp4" controls width="100%"></video>
+
+[Local MP4](assets/videos/head-direction-detection.mp4) | [Google Drive mirror](https://drive.google.com/file/d/1A2q3yyOWNahFMdCXNqwSgLiplSm0I8R8/view?usp=sharing)
+
+### Object Detection and Tracking
+
+Outside-scene object detection with temporal motion tracking.
+
+<video src="assets/videos/object-detection-tracking.mp4" controls width="100%"></video>
+
+[Local MP4](assets/videos/object-detection-tracking.mp4) | [Google Drive mirror](https://drive.google.com/file/d/10NZdcjuLJwZpQkWyuejilv89bkpzwO8w/view?usp=sharing)
+
+### Wake Up Alert
+
+Detects drowsiness or inattention and triggers an alert for the driver.
+
+<video src="assets/videos/wake-up-alert.mp4" controls width="100%"></video>
+
+[Local MP4](assets/videos/wake-up-alert.mp4) | [Google Drive mirror](https://drive.google.com/file/d/1OBGQBOWgTtPI4M-Lg9MHks1ceZ5gpF04/view?usp=sharing)
+
+### Traffic Light Alert
+
+Identifies traffic lights ahead and reports relevant driving context.
+
+<video src="assets/videos/traffic-light-alert.mp4" controls width="100%"></video>
+
+[Local MP4](assets/videos/traffic-light-alert.mp4) | [Google Drive mirror](https://drive.google.com/file/d/1SKdeQcPozlHjiXv1Xai9ZFWGEwpoZ0t2/view?usp=sharing)
+
+### Pedestrian Alert
+
+Detects pedestrians near the vehicle to support safer navigation.
+
+<video src="assets/videos/pedestrian-alert.mp4" controls width="100%"></video>
+
+[Local MP4](assets/videos/pedestrian-alert.mp4) | [Google Drive mirror](https://drive.google.com/file/d/175rLPKxnW_U6EwKj4D845NgkOWCcjafd/view?usp=sharing)
+
+### Look Left Alert
+
+Warns the driver about a hazard approaching from the left side.
+
+<video src="assets/videos/look-left-alert.mp4" controls width="100%"></video>
+
+[Local MP4](assets/videos/look-left-alert.mp4) | [Google Drive mirror](https://drive.google.com/file/d/1Xo7zvCDjAGA3eRQL3tgdRpmuObn_qE4a/view?usp=sharing)
 
 ## System Architecture
 
@@ -59,9 +98,16 @@ The outside stream detects and tracks objects in the driving environment. The in
 .
 |-- README.md
 |-- assets/
-|   `-- media/
-|       |-- driver-behavior-intro.jpg
-|       `-- system-architecture.jpg
+|   |-- media/
+|   |   |-- driver-behavior-intro.jpg
+|   |   `-- system-architecture.jpg
+|   `-- videos/
+|       |-- head-direction-detection.mp4
+|       |-- look-left-alert.mp4
+|       |-- object-detection-tracking.mp4
+|       |-- pedestrian-alert.mp4
+|       |-- traffic-light-alert.mp4
+|       `-- wake-up-alert.mp4
 `-- docs/
     |-- media-catalog.md
     |-- project-status.md

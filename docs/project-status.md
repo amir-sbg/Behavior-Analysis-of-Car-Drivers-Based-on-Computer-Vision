@@ -7,7 +7,8 @@
 - Media catalog.
 - Introductory project image.
 - System architecture image.
-- Links to all current demonstration videos from the project page.
+- Six local MP4 demonstration videos from the project page.
+- Google Drive mirror links for all demonstration videos.
 
 ## Not Included Yet
 
@@ -33,4 +34,3 @@ When the implementation is ready for public release, the repository can be exten
 ## Documentation Principle
 
 Until code is added, this repository should remain honest and documentation-focused. It should describe what the system does, how the architecture is organized, and what the demonstrations show, without implying that a public implementation is already available.
-
